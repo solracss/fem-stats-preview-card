@@ -72,6 +72,7 @@ body {
 }
 
 .content {
+    max-width: 327px;
     text-align: center;
     background-color: #1b1937;
     border-radius: 8px;
@@ -88,10 +89,51 @@ body {
     opacity: 0.75;
 }
 
-ul {
-    list-style: none;
+.content-text {
+    padding: 40px 31px 32px;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.txt-violet {
+    color: #ab5cdb;
+}
+
+.description {
+    margin-top: 16px;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    margin-top: 40px;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .stat-name {
     display: block;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 0.75rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.0625rem;
+    line-height: 1.5625rem;
+}
+
+.stats .stats-list-item:not(:first-child) {
+    margin-top: 24px;
+}
+
+ul {
+    list-style: none;
 }/*# sourceMappingURL=main.css.map */

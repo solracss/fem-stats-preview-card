@@ -15,6 +15,7 @@ body {
 }
 
 .content {
+	max-width: 327px;
 	text-align: center;
 	background-color: $dark-blue;
 	border-radius: 8px;
@@ -31,10 +32,51 @@ body {
 	opacity: 0.75;
 }
 
-ul {
-	list-style: none;
+.content-text {
+	padding: 40px 31px 32px;
+}
+
+.title {
+	font-size: rem(28px);
+	font-weight: $fw-bold;
+	line-height: rem(32px);
+}
+
+.txt-violet {
+	color: $soft-violet;
+}
+
+.description {
+	margin-top: 16px;
+	font-size: rem(15px);
+	line-height: rem(25px);
+	color: $transparent-white-para;
+}
+
+.stats {
+	margin-top: 40px;
+}
+
+.stat-value {
+	font-size: rem(24px);
+	font-weight: $fw-bold;
+	line-height: normal;
 }
 
 .stat-name {
 	display: block;
+	font-family: $ff-counter;
+	font-size: rem(12px);
+	color: $transparent-white-stat;
+	text-transform: uppercase;
+	letter-spacing: rem(1px);
+	line-height: rem(25px);
+}
+
+.stats .stats-list-item:not(:first-child) {
+	margin-top: 24px;
+}
+
+ul {
+	list-style: none;
 }
