@@ -46,3 +46,5 @@ Your users should be able to:
 </div>
 
 ### What I learned
+
+1. Using of `mix-blend-mode` property for blending color with image.
