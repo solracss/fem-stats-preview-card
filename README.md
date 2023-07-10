@@ -25,8 +25,8 @@ Your users should be able to:
 
 <summary>Click to open</summary>
 
-![Desktop]()
-![Mobile]()
+![Desktop](https://i.imgur.com/L7V7VSB.png)
+![Mobile](https://i.imgur.com/Z1IObGN.png)
 
 </details>
 
@@ -48,3 +48,7 @@ Your users should be able to:
 ### What I learned
 
 1. Using of `mix-blend-mode` property for blending color with image.
+
+2. Showing statistics as list
+
+3. Working with two column layout
