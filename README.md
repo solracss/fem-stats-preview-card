@@ -32,7 +32,7 @@ Your users should be able to:
 
 ### Links
 
-- Live Site URL: [Live](https://solracss.github.io/fem-single-price-component/)
+- Live Site URL: [Live](https://solracss.github.io/fem-stats-preview-card/)
 
 ## My process
 
