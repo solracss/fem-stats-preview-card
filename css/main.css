@@ -136,4 +136,34 @@ body {
 
 ul {
     list-style: none;
+}
+
+@media (min-width: 1200px) {
+    .content {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1110px;
+        text-align: left;
+    }
+    .content-text {
+        padding: 71px 95px 59px 72px;
+        width: 51%;
+    }
+    .title {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+    .description {
+        margin-top: 25px;
+        max-width: 40ch;
+    }
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 72px;
+        padding-right: 50px;
+    }
+    .stats .stats-list-item:not(:first-child) {
+        margin-top: 0;
+    }
 }/*# sourceMappingURL=main.css.map */
